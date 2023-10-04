@@ -1,0 +1,71 @@
+/*------------------------------------------
+   color, font and variable setup
+   -------------------------------------*/
+
+
+:root{
+    --c-primary:  #F08633;
+    --c-secondary: #FBE1CC;
+    --c-dark: #1d201c;
+    --c-background:  #cecece;
+    --c-black: #000000;
+    
+    --font-base:"poppins", sans-serif;
+}
+body{
+    font-family: var(--font-base);
+    font-size: 13px;
+    line-height:1.1;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6{
+    font-weight: 500;
+}
+
+p{
+    font-family: var(--font-base);
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-primary);
+}
+
+a:hover{
+    color: var(--c-secondary);
+}
+
+ 
+/*------------------------------------------
+  button css setup
+   -------------------------------------*/
+.btn{
+    font-weight: 600 !important;
+    border: none !important;
+}
+.btn-primary{
+    background-color: var(--c-primary) !important;
+}
+.btn-primary:hover{
+    background-color: var(--c-secondary) !important;
+}
+
+
+.card-header{
+    background-color:var(--c-secondary) !important;
+}
+
+
+.circular-image {
+    width: 100px;  
+    height: 100px;
+    border-radius: 50%; 
+    overflow: hidden; 
+ 
+}
+ 
+
+ 
+ 
+ 
